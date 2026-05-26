@@ -1,13 +1,9 @@
 package com.ryckdev.cocina;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class CocinaApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(CocinaApplication.class, args);
-	}
-
+    // Esta clase solo marca el paquete base para Spring.
+    // El arranque real ocurre en Main.java
 }
